@@ -78,7 +78,8 @@ public class YoutubeDirectLinkExtractor {
     func extractInfo(from string: String) -> ([[String: String]], Swift.Error?) {
         let pairs = string.queryComponents()
         
-        guard let fmtStreamMap = pairs["url_encoded_fmt_stream_map"] else {
+        guard let fmtStreamMap = pairs["url_encoded_fmt_stream_map"],
+        !fmtStreamMap.isEmpty else {
             let error = YoutubeError(errorDescription: pairs["reason"])
             return ([], error ?? Error.cantExtractFmtStreamMap)
         }
