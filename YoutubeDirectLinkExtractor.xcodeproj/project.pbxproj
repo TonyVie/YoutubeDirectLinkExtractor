@@ -10,33 +10,27 @@
 		52D6D9871BEFF229002C0205 /* YoutubeDirectLinkExtractor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* YoutubeDirectLinkExtractor.framework */; };
 		8933C7851EB5B820000D00A4 /* YoutubeDirectLinkExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* YoutubeDirectLinkExtractor.swift */; };
 		8933C7861EB5B820000D00A4 /* YoutubeDirectLinkExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* YoutubeDirectLinkExtractor.swift */; };
-		8933C7871EB5B820000D00A4 /* YoutubeDirectLinkExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* YoutubeDirectLinkExtractor.swift */; };
 		8933C7881EB5B820000D00A4 /* YoutubeDirectLinkExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* YoutubeDirectLinkExtractor.swift */; };
 		8933C78E1EB5B82C000D00A4 /* YoutubeDirectLinkExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* YoutubeDirectLinkExtractorTests.swift */; };
 		8933C78F1EB5B82C000D00A4 /* YoutubeDirectLinkExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* YoutubeDirectLinkExtractorTests.swift */; };
 		8933C7901EB5B82D000D00A4 /* YoutubeDirectLinkExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* YoutubeDirectLinkExtractorTests.swift */; };
 		B02AB9DC204DB9110082690F /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02AB9DB204DB9110082690F /* VideoInfo.swift */; };
 		B02AB9DD204DB9110082690F /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02AB9DB204DB9110082690F /* VideoInfo.swift */; };
-		B02AB9DE204DB9110082690F /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02AB9DB204DB9110082690F /* VideoInfo.swift */; };
 		B02AB9DF204DB9110082690F /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02AB9DB204DB9110082690F /* VideoInfo.swift */; };
 		B02EF68F204BF0CF002A045E /* String+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EF68E204BF0CF002A045E /* String+Components.swift */; };
 		B02EF690204BF0CF002A045E /* String+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EF68E204BF0CF002A045E /* String+Components.swift */; };
-		B02EF691204BF0CF002A045E /* String+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EF68E204BF0CF002A045E /* String+Components.swift */; };
 		B02EF692204BF0CF002A045E /* String+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EF68E204BF0CF002A045E /* String+Components.swift */; };
 		B02EF694204C2EDE002A045E /* Array+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EF693204C2EDE002A045E /* Array+SafeSubscript.swift */; };
 		B02EF695204C2EDE002A045E /* Array+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EF693204C2EDE002A045E /* Array+SafeSubscript.swift */; };
-		B02EF696204C2EDE002A045E /* Array+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EF693204C2EDE002A045E /* Array+SafeSubscript.swift */; };
 		B02EF697204C2EDE002A045E /* Array+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EF693204C2EDE002A045E /* Array+SafeSubscript.swift */; };
 		B02EF699204C3A3D002A045E /* ExtractionSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EF698204C3A3D002A045E /* ExtractionSourceTests.swift */; };
 		B02EF69A204C3A3D002A045E /* ExtractionSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EF698204C3A3D002A045E /* ExtractionSourceTests.swift */; };
 		B02EF69B204C3A3D002A045E /* ExtractionSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02EF698204C3A3D002A045E /* ExtractionSourceTests.swift */; };
 		B03ABD75204C5D59007C74A3 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03ABD74204C5D59007C74A3 /* Errors.swift */; };
 		B03ABD76204C5D59007C74A3 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03ABD74204C5D59007C74A3 /* Errors.swift */; };
-		B03ABD77204C5D59007C74A3 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03ABD74204C5D59007C74A3 /* Errors.swift */; };
 		B03ABD78204C5D59007C74A3 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03ABD74204C5D59007C74A3 /* Errors.swift */; };
 		B03ABD7A204C5DBB007C74A3 /* ExtractionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03ABD79204C5DBB007C74A3 /* ExtractionSource.swift */; };
 		B03ABD7B204C5DBB007C74A3 /* ExtractionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03ABD79204C5DBB007C74A3 /* ExtractionSource.swift */; };
-		B03ABD7C204C5DBB007C74A3 /* ExtractionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03ABD79204C5DBB007C74A3 /* ExtractionSource.swift */; };
 		B03ABD7D204C5DBB007C74A3 /* ExtractionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03ABD79204C5DBB007C74A3 /* ExtractionSource.swift */; };
 		B0450FA8204C638C00C45B11 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0450FA7204C638C00C45B11 /* Stub.swift */; };
 		B0450FA9204C638C00C45B11 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0450FA7204C638C00C45B11 /* Stub.swift */; };
@@ -78,7 +72,6 @@
 /* Begin PBXFileReference section */
 		52D6D97C1BEFF229002C0205 /* YoutubeDirectLinkExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YoutubeDirectLinkExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* YoutubeDirectLinkExtractor-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YoutubeDirectLinkExtractor-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D6D9E21BEFFF6E002C0205 /* YoutubeDirectLinkExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YoutubeDirectLinkExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9F01BEFFFBE002C0205 /* YoutubeDirectLinkExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YoutubeDirectLinkExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6DA0F1BF000BD002C0205 /* YoutubeDirectLinkExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YoutubeDirectLinkExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8933C7841EB5B820000D00A4 /* YoutubeDirectLinkExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeDirectLinkExtractor.swift; sourceTree = "<group>"; };
@@ -111,13 +104,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D6D9871BEFF229002C0205 /* YoutubeDirectLinkExtractor.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6D9DE1BEFFF6E002C0205 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +155,6 @@
 			children = (
 				52D6D97C1BEFF229002C0205 /* YoutubeDirectLinkExtractor.framework */,
 				52D6D9861BEFF229002C0205 /* YoutubeDirectLinkExtractor-iOS Tests.xctest */,
-				52D6D9E21BEFFF6E002C0205 /* YoutubeDirectLinkExtractor.framework */,
 				52D6D9F01BEFFFBE002C0205 /* YoutubeDirectLinkExtractor.framework */,
 				52D6DA0F1BF000BD002C0205 /* YoutubeDirectLinkExtractor.framework */,
 				DD75027A1C68FCFC006590AF /* YoutubeDirectLinkExtractor-macOS Tests.xctest */,
@@ -255,13 +240,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52D6D9DF1BEFFF6E002C0205 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		52D6D9ED1BEFFFBE002C0205 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,24 +292,6 @@
 			productName = YoutubeDirectLinkExtractorTests;
 			productReference = 52D6D9861BEFF229002C0205 /* YoutubeDirectLinkExtractor-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		52D6D9E11BEFFF6E002C0205 /* YoutubeDirectLinkExtractor-watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52D6D9E71BEFFF6E002C0205 /* Build configuration list for PBXNativeTarget "YoutubeDirectLinkExtractor-watchOS" */;
-			buildPhases = (
-				52D6D9DD1BEFFF6E002C0205 /* Sources */,
-				52D6D9DE1BEFFF6E002C0205 /* Frameworks */,
-				52D6D9DF1BEFFF6E002C0205 /* Headers */,
-				52D6D9E01BEFFF6E002C0205 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "YoutubeDirectLinkExtractor-watchOS";
-			productName = "YoutubeDirectLinkExtractor-watchOS";
-			productReference = 52D6D9E21BEFFF6E002C0205 /* YoutubeDirectLinkExtractor.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		52D6D9EF1BEFFFBE002C0205 /* YoutubeDirectLinkExtractor-tvOS */ = {
 			isa = PBXNativeTarget;
@@ -412,36 +372,32 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Andrey Sevrikov";
 				TargetAttributes = {
 					52D6D97B1BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					52D6D9851BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
-					};
-					52D6D9E11BEFFF6E002C0205 = {
-						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					52D6D9EF1BEFFFBE002C0205 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					52D6DA0E1BF000BD002C0205 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					DD7502791C68FCFC006590AF = {
 						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					DD75028C1C690C7A006590AF = {
 						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -459,7 +415,6 @@
 			targets = (
 				52D6D97B1BEFF229002C0205 /* YoutubeDirectLinkExtractor-iOS */,
 				52D6DA0E1BF000BD002C0205 /* YoutubeDirectLinkExtractor-macOS */,
-				52D6D9E11BEFFF6E002C0205 /* YoutubeDirectLinkExtractor-watchOS */,
 				52D6D9EF1BEFFFBE002C0205 /* YoutubeDirectLinkExtractor-tvOS */,
 				52D6D9851BEFF229002C0205 /* YoutubeDirectLinkExtractor-iOS Tests */,
 				DD7502791C68FCFC006590AF /* YoutubeDirectLinkExtractor-macOS Tests */,
@@ -482,13 +437,6 @@
 			files = (
 				B0450FB0204C6C7900C45B11 /* ResponseUpToMediumQualities.txt in Resources */,
 				B0450FAC204C641500C45B11 /* ResponseAllQualities.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6D9E01BEFFF6E002C0205 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,19 +495,6 @@
 				8933C7901EB5B82D000D00A4 /* YoutubeDirectLinkExtractorTests.swift in Sources */,
 				B0450FA8204C638C00C45B11 /* Stub.swift in Sources */,
 				B02EF699204C3A3D002A045E /* ExtractionSourceTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6D9DD1BEFFF6E002C0205 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B03ABD7C204C5DBB007C74A3 /* ExtractionSource.swift in Sources */,
-				B03ABD77204C5D59007C74A3 /* Errors.swift in Sources */,
-				B02EF696204C2EDE002A045E /* Array+SafeSubscript.swift in Sources */,
-				B02AB9DE204DB9110082690F /* VideoInfo.swift in Sources */,
-				B02EF691204BF0CF002A045E /* String+Components.swift in Sources */,
-				8933C7871EB5B820000D00A4 /* YoutubeDirectLinkExtractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,12 +577,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -699,12 +636,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -756,7 +695,7 @@
 				PRODUCT_NAME = YoutubeDirectLinkExtractor;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -778,7 +717,7 @@
 				PRODUCT_NAME = YoutubeDirectLinkExtractor;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -791,7 +730,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YoutubeDirectLinkExtractor.YoutubeDirectLinkExtractor-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -804,52 +743,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YoutubeDirectLinkExtractor.YoutubeDirectLinkExtractor-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		52D6D9E81BEFFF6E002C0205 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Configs/YoutubeDirectLinkExtractor.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YoutubeDirectLinkExtractor.YoutubeDirectLinkExtractor-watchOS";
-				PRODUCT_NAME = YoutubeDirectLinkExtractor;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		52D6D9E91BEFFF6E002C0205 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Configs/YoutubeDirectLinkExtractor.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YoutubeDirectLinkExtractor.YoutubeDirectLinkExtractor-watchOS";
-				PRODUCT_NAME = YoutubeDirectLinkExtractor;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -869,7 +763,7 @@
 				PRODUCT_NAME = YoutubeDirectLinkExtractor;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -892,7 +786,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -917,7 +811,7 @@
 				PRODUCT_NAME = YoutubeDirectLinkExtractor;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -941,7 +835,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -956,7 +850,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YoutubeDirectLinkExtractor.YoutubeDirectLinkExtractor-macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -972,7 +866,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -984,7 +878,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.YoutubeDirectLinkExtractor.YoutubeDirectLinkExtractor-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
@@ -998,7 +892,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
@@ -1029,15 +923,6 @@
 			buildConfigurations = (
 				52D6D9941BEFF229002C0205 /* Debug */,
 				52D6D9951BEFF229002C0205 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52D6D9E71BEFFF6E002C0205 /* Build configuration list for PBXNativeTarget "YoutubeDirectLinkExtractor-watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52D6D9E81BEFFF6E002C0205 /* Debug */,
-				52D6D9E91BEFFF6E002C0205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
