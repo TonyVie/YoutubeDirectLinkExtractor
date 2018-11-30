@@ -16,15 +16,15 @@ public struct VideoInfo {
     
     public var highestQualityPlayableLink: String? {
         let urls = rawInfo.compactMap { $0["url"] }
-        return firstPLayable(from: urls)
+        return firstPlayable(from: urls)
     }
     
     public var lowestQualityPlayableLink: String? {
         let urls = rawInfo.reversed().compactMap { $0["url"] }
-        return firstPLayable(from: urls)
+        return firstPlayable(from: urls)
     }
     
-    private func firstPLayable(from urls: [String]) -> String? {
+    private func firstPlayable(from urls: [String]) -> String? {
         for urlString in urls {
             guard let url = URL(string: urlString) else {
                 continue

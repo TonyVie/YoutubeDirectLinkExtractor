@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YoutubeDirectLinkExtractor"
-  s.version      = "0.1.1"
+  s.version      = "0.2.0"
   s.summary      = "Get the direct link to a YouTube video for AVPlayer"
   s.description  = <<-DESC
     YoutubeDirectLinkExtractor allows you to obtain the direct link to a YouTube video, which you can easily use with AVPlayer.
