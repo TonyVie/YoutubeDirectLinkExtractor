@@ -20,44 +20,60 @@ class YoutubeDirectLinkExtractorTests: XCTestCase {
         let result = YoutubeDirectLinkExtractor().extractInfo(from: stubAllQualities)
         
         // then
-        XCTAssertEqual(result.0.count, 5)
+        XCTAssertEqual(result.0.count, 2)
     }
-    
-    func testExtractsInfoForUpToMediumQualities() {
-        // when
-        let result = YoutubeDirectLinkExtractor().extractInfo(from: stubUpToMediumQualities)
-        
-        // then
-        XCTAssertEqual(result.0.count, 4)
-    }
+//
+//    func testExtractsInfoForUpToMediumQualities() {
+//        // when
+//        let result = YoutubeDirectLinkExtractor().extractInfo(from: stubUpToMediumQualities)
+//
+//        // then
+//        XCTAssertEqual(result.0.count, 4)
+//    }
     
     // MARK: - Real-world testing
     
-//    func testRealExtractInfo() {
-//        // given
-//        let videoId = "hMloyp6NI4E"
-//        let expectation = XCTestExpectation(description: "Get callback fired")
-//
-//        // then
-//        YoutubeDirectLinkExtractor().extractInfo(for: .id(videoId), success: { info in
-//            expectation.fulfill()
-//        }) { error in
-//            expectation.fulfill()
-//        }
-//
-//        wait(for: [expectation], timeout: 10)
-//    }
+    func testRealExtractInfo() {
+        // given
+        let videoId = "hMloyp6NI4E"
+        let expectation = XCTestExpectation(description: "Get callback fired")
+
+        // then
+        YoutubeDirectLinkExtractor().extractInfo(for: .id(videoId), success: { info in
+            expectation.fulfill()
+        }) { error in
+            expectation.fulfill()
+        }
+
+        wait(for: [expectation], timeout: 10)
+    }
     
-//    func testRealExtractRawInfo() {
-//        // given
-//        let videoId = "hMloyp6NI4E"
-//        let expectation = XCTestExpectation(description: "Get callback fired")
-//
-//        // then
-//        YoutubeDirectLinkExtractor().extractRawInfo(for: .id(videoId)) { info, error in
-//            expectation.fulfill()
-//        }
-//
-//        wait(for: [expectation], timeout: 10)
-//    }
+    func testRealExtractRawInfo() {
+        // given
+        let videoId = "hMloyp6NI4E"
+        let expectation = XCTestExpectation(description: "Get callback fired")
+
+        // then
+        YoutubeDirectLinkExtractor().extractRawInfo(for: .id(videoId)) { info, error in
+            expectation.fulfill()
+        }
+
+        wait(for: [expectation], timeout: 10)
+    }
+    
+    func testRealExtractInfoSuccess() {
+        // given
+        let videoId = "kOZ3YsdfdSg"
+        let expectation = XCTestExpectation(description: "Get callback fired")
+        
+        // then
+        YoutubeDirectLinkExtractor().extractInfo(for: .id(videoId), success: { info in
+            expectation.fulfill()
+        }) { error in
+            XCTFail("Error: \(error)")
+            expectation.fulfill()
+        }
+        
+        wait(for: [expectation], timeout: 10)
+    }
 }

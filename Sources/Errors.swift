@@ -13,7 +13,7 @@ enum Error: String, LocalizedError {
     case cantConstructRequestUrl = "Couldn't construct URL for youtube info request"
     case noDataInResponse = "No data in youtube info response"
     case cantConvertDataToString = "Couldn't convert response data to string"
-    case cantExtractFmtStreamMap = "Couldn't extract url_encoded_fmt_stream_map from youtube response"
+    case cantExtractURLFromYoutubeResponse = "Couldn't extract url from youtube response"
     case unkown = "Unknown error occured"
     
     var errorDescription: String? {

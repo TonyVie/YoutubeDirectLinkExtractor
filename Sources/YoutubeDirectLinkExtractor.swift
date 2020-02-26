@@ -12,10 +12,17 @@ public class YoutubeDirectLinkExtractor {
     
     private let infoBasePrefix = "https://www.youtube.com/get_video_info?video_id="
     private let userAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6"
+   
+    private var session: URLSession
     
     // MARK: - Public
     
-    public init() {
+    public init(session: URLSession) {
+        self.session = session
+    }
+    
+    public convenience init() {
+        self.init(session: URLSession.shared)
     }
     
     public func extractInfo(for source: ExtractionSource,
@@ -57,7 +64,7 @@ public class YoutubeDirectLinkExtractor {
         r.httpMethod = "GET"
         r.setValue(userAgent, forHTTPHeaderField: "User-Agent")
         
-        URLSession.shared.dataTask(with: r as URLRequest) { data, response, error in
+        session.dataTask(with: r as URLRequest) { data, response, error in
 
             guard let data = data else {
                 completion([], error ?? Error.noDataInResponse)
@@ -78,15 +85,22 @@ public class YoutubeDirectLinkExtractor {
     func extractInfo(from string: String) -> ([[String: String]], Swift.Error?) {
         let pairs = string.queryComponents()
         
-        guard let fmtStreamMap = pairs["url_encoded_fmt_stream_map"],
-        !fmtStreamMap.isEmpty else {
+        guard let playerResponse = pairs["player_response"], !playerResponse.isEmpty else {
             let error = YoutubeError(errorDescription: pairs["reason"])
-            return ([], error ?? Error.cantExtractFmtStreamMap)
+            return ([], error ?? Error.cantExtractURLFromYoutubeResponse)
         }
         
-        let fmtStreamMapComponents = fmtStreamMap.components(separatedBy: ",")
+        guard let playerResponseData = playerResponse.data(using: .utf8),
+        let playerResponseJSON = (try? JSONSerialization.jsonObject(with: playerResponseData, options: [])) as? [String: Any],
+        let streamingData = playerResponseJSON["streamingData"] as? [String: Any],
+        let formats = streamingData["formats"] as? [[String: Any]] else {
+            return ([], Error.cantExtractURLFromYoutubeResponse)
+        }
         
-        let infoPerPreset = fmtStreamMapComponents.map { $0.queryComponents() }
-        return (infoPerPreset, nil)
+        let arrayUrls: [[String: String]] = formats
+        .compactMap { $0["url"] as? String }
+        .map { ["url": $0] }
+
+        return (arrayUrls, nil)
     }
 }
