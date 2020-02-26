@@ -22,20 +22,24 @@ class YoutubeDirectLinkExtractorTests: XCTestCase {
         // then
         XCTAssertEqual(result.0.count, 2)
     }
-//
-//    func testExtractsInfoForUpToMediumQualities() {
-//        // when
-//        let result = YoutubeDirectLinkExtractor().extractInfo(from: stubUpToMediumQualities)
-//
-//        // then
-//        XCTAssertEqual(result.0.count, 4)
-//    }
+
+    func testExtractsInfoForUpToMediumQualities() {
+        // when
+        let result = YoutubeDirectLinkExtractor().extractInfo(from: stubUpToMediumQualities)
+
+        // then
+        XCTAssertEqual(result.0.count, 1)
+    }
     
     // MARK: - Real-world testing
     
+    let testRealApi = false
+    
     func testRealExtractInfo() {
+        guard testRealApi else { return }
+        
         // given
-        let videoId = "hMloyp6NI4E"
+        let videoId = "Jvph0r09nDU"
         let expectation = XCTestExpectation(description: "Get callback fired")
 
         // then
@@ -49,6 +53,8 @@ class YoutubeDirectLinkExtractorTests: XCTestCase {
     }
     
     func testRealExtractRawInfo() {
+        guard testRealApi else { return }
+        
         // given
         let videoId = "hMloyp6NI4E"
         let expectation = XCTestExpectation(description: "Get callback fired")
@@ -62,6 +68,8 @@ class YoutubeDirectLinkExtractorTests: XCTestCase {
     }
     
     func testRealExtractInfoSuccess() {
+        guard testRealApi else { return }
+        
         // given
         let videoId = "kOZ3YsdfdSg"
         let expectation = XCTestExpectation(description: "Get callback fired")
