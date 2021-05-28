@@ -98,6 +98,12 @@ public class YoutubeDirectLinkExtractor {
         }
         
         let arrayUrls: [[String: String]] = formats
+            .sorted(by: { formatA, formatB in
+                let heightA = formatA["height"] as? Int ?? 0
+                let heightB = formatB["height"] as? Int ?? 0
+                
+                return heightA > heightB
+            })
         .compactMap { $0["url"] as? String }
         .map { ["url": $0] }
 
